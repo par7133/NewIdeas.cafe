@@ -1,5 +1,5 @@
 # New Ideas Café
-A propositive way to use ideas and collaborate on stuff.
+A propositive way to use ideas and collaborate on stuff, in the IT.
    
 Hello and welcome in our New Ideas Café!   
    
