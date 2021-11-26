@@ -13,7 +13,7 @@
     function transcontent() {
       i=0;
       $("lt-content").each(function() {
-        parent.document.getElementsByTagName("lt-content")[i] = $(this).html(); 
+        parent.document.getElementsByTagName("lt-content")[i].innerHTML = $(this).html(); 
         i++;
       });
     }
