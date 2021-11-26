@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Index for Lead Toys</title>
+
+  <script src="/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+
+  <script src="https://lead.toys/newideascafe" type="text/javascript"></script>
+
+  <script>
+    parent.addEventListner("load", function() {
+      i=0;
+      $("lt-content").each(function() {
+        parent.document.getElementsByTagName("lt-content")[i] = $(this).html(); 
+        i++;
+      });
+    });
+  </script>  
+
+</head>
+<body>
+
+  <lt-content>
+    
+    There are socials and socials. And undoubtly Github platform misses the blogging feature for its feed system from a while. Time to upgrade or for a change..
+    
+  </lt-content>  
+
+</body>
