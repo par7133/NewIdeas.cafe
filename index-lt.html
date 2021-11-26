@@ -10,13 +10,18 @@
   <script src="https://lead.toys/newideascafe" type="text/javascript"></script>
 
   <script>
-    parent.addEventListner("load", function() {
+    function transcontent() {
       i=0;
       $("lt-content").each(function() {
         parent.document.getElementsByTagName("lt-content")[i] = $(this).html(); 
         i++;
       });
+    }
+    
+    window.addEventListener("load", function() {
+      setTimeout("transcontent()", 5000);
     });
+    
   </script>  
 
 </head>
